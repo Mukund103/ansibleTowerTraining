@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
     - dnf:
-        name: dialog
+        name: httpd
         state: present
