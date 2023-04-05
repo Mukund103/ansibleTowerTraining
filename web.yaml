@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
-    - package:
+    - dnf:
         name: dialog
         state: present
