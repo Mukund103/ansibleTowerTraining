@@ -2,4 +2,4 @@
   tasks:
     - ansible.builtin.package:
         name: dialog
-        state: present1
+        state: present
