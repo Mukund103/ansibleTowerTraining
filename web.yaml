@@ -1,5 +1,5 @@
 - hosts: all
   tasks:
-    - ansible.builtin.package:
+    - package:
         name: dialog
         state: present
