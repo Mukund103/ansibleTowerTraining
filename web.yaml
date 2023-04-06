@@ -3,3 +3,10 @@
     - dnf:
         name: httpd
         state: present
+    - copy:
+        content: "Hello welcome"
+        src: /www/html/index.html
+
+    - service:
+        name: httpd
+        state: started
