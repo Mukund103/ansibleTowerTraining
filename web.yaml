@@ -5,7 +5,7 @@
         state: present
     - copy:
         content: "Hello welcome"
-        dest: /www/html/index.html
+        dest: /var//www/html/index.html
 
     - service:
         name: httpd
