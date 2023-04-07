@@ -8,5 +8,5 @@
         dest: /var//www/html/index.html
 
     - service:
-        name: httpd
+        name: apache2
         state: started
