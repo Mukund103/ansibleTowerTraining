@@ -1,6 +1,6 @@
 - hosts: all
   tasks:
-    - dnf:
+    - package:
         name: httpd
         state: present
     - copy:
