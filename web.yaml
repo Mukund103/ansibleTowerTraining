@@ -4,7 +4,7 @@
         name: httpd
         state: present
     - copy:
-        content: "Hello welcome"
+        content: "Hello welcome mukund"
         dest: /var//www/html/index.html
 
     - service:
