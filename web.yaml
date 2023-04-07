@@ -1,7 +1,7 @@
 - hosts: all
   tasks:
     - package:
-        name: httpd
+        name: apache2
         state: present
     - copy:
         content: "Hello welcome mukund"
